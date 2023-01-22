@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
 glutInit(&argc, argv);
 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 glutInitWindowSize(500, 500);
-glutCreateWindow(&quot;The RGB Color Cube&quot;);
+glutCreateWindow("The RGB Color Cube");
 glutReshapeFunc(reshape);
 glutTimerFunc(100, timer, 0);
 glutDisplayFunc(display);
